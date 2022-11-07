@@ -95,6 +95,9 @@ const Registerform=()=>{
                            <div className='mt-3'>
                                <input type="submit" className='btn btn-warning btn-sm' value='Register'/> 
                            </div>
+                           <div className='mt-3'>
+                               <button className='btn btn-success btn-sm'>cancel</button>
+                           </div>
 
                         </form>
                     </div>
