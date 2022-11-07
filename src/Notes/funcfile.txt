@@ -1,0 +1,14 @@
+import React from 'react'
+
+const Students = (props) => {
+  return (
+    <React.Fragment>
+     <div className='card'>
+     <h2>Name: {props.name} <br/> Age:{props.age}</h2>
+     <pre>{JSON.stringify(props)}</pre>
+     </div>
+    </React.Fragment>
+  )
+}
+
+export default Students

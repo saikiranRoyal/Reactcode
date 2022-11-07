@@ -1,0 +1,13 @@
+import React, { Fragment } from "react";
+
+class Employe extends React.Component{
+    render() {
+        return(
+        <React.Fragment>
+            <div>
+                <h2>welcome to Employee Component</h2>
+            </div>
+        </React.Fragment>
+        );
+    }
+}
